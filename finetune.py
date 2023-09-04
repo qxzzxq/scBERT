@@ -31,7 +31,7 @@ import pickle as pkl
 parser = argparse.ArgumentParser()
 parser.add_argument("--local_rank", type=int, default=-1, help='Local process rank.')
 parser.add_argument("--bin_num", type=int, default=5, help='Number of bins.')
-parser.add_argument("--gene_num", type=int, default=16906, help='Number of genes.')
+parser.add_argument("--gene_num", type=int, default=42151, help='Number of genes.')
 parser.add_argument("--epoch", type=int, default=100, help='Number of epochs.')
 parser.add_argument("--seed", type=int, default=2021, help='Random seed.')
 parser.add_argument("--batch_size", type=int, default=3, help='Number of batch size.')
