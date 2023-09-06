@@ -29,7 +29,7 @@ from utils import *
 import pickle as pkl
 
 GENE_NUM = 15000 # 16906
-DATA_PATH = 'data/MCDAA.h5ad'  # 'data/Zheng68K.h5ad'
+DATA_PATH = 'data/MCDAA_15k.h5ad'  # 'data/Zheng68K.h5ad'
 cell_type = 'cell_type'  # 'celltype'
 EPOCH = 1
 
