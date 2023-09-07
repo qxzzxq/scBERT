@@ -32,7 +32,7 @@ GENE_NUM = 15000 # 16906
 DATA_PATH = 'data/MCDAA_15k.h5ad'  # 'data/Zheng68K.h5ad'
 cell_type = 'cell_type'  # 'celltype'
 EPOCH = 5
-BATCH_SIZE = 12
+BATCH_SIZE = 9
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--local_rank", type=int, default=-1, help='Local process rank.')
